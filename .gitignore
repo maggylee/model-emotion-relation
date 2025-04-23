@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos de log
+*.log
+
+# R specific
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# C/C++ object files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Dados grandes e sensíveis
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.pkl
+*.npz
+*.npy
+*.db
+*.sqlite3
+
+# Notebooks convertidos
+.ipynb_checkpoints/
+
+# Arquivos temporários / backups
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.old
+
+# Outputs gráficos não consolidados
+figures/raw/
+*.svg
+*.eps
+
+# Mac/Linux/Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Ambientes virtuais
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos LaTeX auxiliares (caso você use)
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Arquivos gerados por bibliotecas
+*.pdf
+*.html
+*.md
